@@ -73,6 +73,8 @@ CatBoostClassifier(
 ## Usage
 
 ```bash
+uv venv
+source .venv/bin/activate
 uv sync
 python train_and_predict.py
 ```
